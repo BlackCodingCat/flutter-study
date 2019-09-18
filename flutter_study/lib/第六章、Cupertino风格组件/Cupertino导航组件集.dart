@@ -48,7 +48,7 @@ class _MyPageState extends State<MyPage>{
               case 1:
                 return new ChatPage();
                 break;
-              case 0: 
+              default: 
                 return Container();
                 break;
             }
